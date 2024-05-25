@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">S2-Ejercicio1</string>
+    <string name ="message1">UNIVALLE!</string>
+    <string name ="message2">Nombre</string>
+    <string name ="message3">Apellidos</string>
+    <string name ="message4">Edad</string>
+    <string name ="btnShow">Mostrar</string>
 </resources>
