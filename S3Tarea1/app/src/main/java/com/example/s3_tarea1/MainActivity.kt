@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
             binding.BtnEvaluar.setOnClickListener(){
-                var num = binding.TFNumber.editText.toString().toDouble()
+                var num = binding.TFNumber.editText!!.text.toString().toDouble()
                 var msn = isPositive(num)
                 Toast.makeText(this, msn, Toast.LENGTH_LONG).show()
             }

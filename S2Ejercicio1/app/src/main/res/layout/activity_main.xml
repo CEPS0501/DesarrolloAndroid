@@ -25,26 +25,14 @@
         android:padding="25dp"
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/TvMessage2"
-        android:text="@string/message2"
-        app:layout_constraintTop_toBottomOf="@id/TvMessage1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        />
     <EditText
+        android:id="@+id/EtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/EtName"
-        app:layout_constraintTop_toBottomOf="@id/TvMessage2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="25dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="139dp" />
 
     <Button
         android:layout_width="match_parent"
