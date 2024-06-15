@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S5-Ejercicio1</string>
+    <string name="welcome">Bienvenido!</string>
+    <string name="button1">Suma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Suma</string>
+</resources>
